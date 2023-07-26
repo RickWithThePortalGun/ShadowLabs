@@ -20,37 +20,37 @@ export const navLinks = [
 export const exploreWorlds = [
   {
     id: 'skillset-1',
-    imgUrl: '/Frontend.png',
+    imgUrl: '/Frontend.webp',
     title: 'Frontend',
   },
   {
     id: 'skillset-2',
-    imgUrl: '/Backend.png',
+    imgUrl: '/Backend.webp',
     title: 'Backend',
   },
   {
     id: 'skillset-3',
-    imgUrl: '/APIDevelopers.png',
+    imgUrl: '/APIDevelopers.webp',
     title: 'API Developers',
   },
   {
     id: 'skillset-4',
-    imgUrl: '/Database.png',
+    imgUrl: '/Database.webp',
     title: 'Databases',
   },
   {
     id: 'skillset-5',
-    imgUrl: '/UIUX.png',
+    imgUrl: '/UIUX.webp',
     title: 'UI/UX Design',
   },
   {
     id: 'skillset-6',
-    imgUrl: '/Devops.png',
+    imgUrl: '/Devops.webp',
     title: 'DevOps',
   },
   {
     id: 'skillset-7',
-    imgUrl: '/MobileDevelopers.png',
+    imgUrl: '/MobileDevelopers.webp',
     title: 'Mobile Development',
   },
 ];
@@ -66,17 +66,11 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    ref: 'https://twitter.com/shadowlabshq'
   },
   {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-  },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'discord',
+    url: '/discord.svg',
+    ref: 'https://discord.gg/WTKKZypq'
   },
 ];

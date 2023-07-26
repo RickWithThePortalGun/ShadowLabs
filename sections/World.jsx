@@ -48,7 +48,7 @@ const World = () => (
               Frontend
             </p>
             <img
-              src="Frontend.png"
+              src="Frontend.webp"
               alt="people"
               className="w-full h-full object-cover rounded-[20px] p-1"
             />
@@ -60,7 +60,7 @@ const World = () => (
               Backend
             </p>
             <img
-              src="Backend.png"
+              src="Backend.webp"
               alt="people"
               className="w-full h-full object-cover rounded-[20px] p-1"
             />
