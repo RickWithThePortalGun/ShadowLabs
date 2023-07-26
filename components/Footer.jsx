@@ -35,7 +35,7 @@ const Footer = () => (
       </h4>
       </a>
       <p className="font-normal text-[14px] text-white opacity-50 ">
-      Copyright ©️ 2023 Shadow Labs. All rights reserved.
+      Copyright © 2023 Shadow Labs. All rights reserved.
       </p>
       <div className="flex gap-4">
       {socials.map((social) => (
