@@ -7,7 +7,7 @@ import { StartSteps, TitleText, TypingText } from '../components';
 import { startingFeatures } from '../constants';
 
 const GetStarted = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id='getstarted'>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -26,7 +26,7 @@ const GetStarted = () => (
         <TitleText title={<>Follow these steps</>} textStyles="text-center" />
         <div className="mt-[30px] flex flex-col max-w-[370px] w-full gap-[24px]">
           {startingFeatures.map((features, index) => (
-            <StartSteps keys={features} number={index + 1} text={features} />
+            <StartSteps key={index + 1} number={index + 1} text={features} />
           ))}
         </div>
       </motion.div>

@@ -6,7 +6,7 @@ import { staggerContainer, fadeIn } from "../utils/motion";
 import { TypingText } from "../components";
 
 const About = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="about">
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}

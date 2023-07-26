@@ -18,17 +18,17 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       className="absolute w-full h-full object-cover rounded-[24px]"
     />
     {active !== id ? (
-      <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
+      <h3 className="font-semibold sm:text-[26px] p-2 text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
         {title}
       </h3>
     ) : (
-      <div className=" absolute bottom-0 justify-center items-center w-full flex flex-col p-4 bg-[rgba(0,0,0,0.5)] rounded-b-[24px] rounded-t-[24px] sm:rounded-t[0px]">
+      <div className="absolute bottom-0 justify-center items-center w-full flex flex-col p-4 bg-[rgba(0,0,0,0.5)] rounded-b-[24px] rounded-t-[24px] sm:rounded-t-[0px]">
         <div
           className={`${styles.flexCenter} w-[60px] h-[60px] mb-[8px] rounded-full glassmorphism`}
         >
-          <img src="./app.png" alt=""className="w-[50px] h-auto object-contain" />
+          <img src="./discord.png" alt=""className="w-[300px] object-contain" />
         </div>
-        <p className="font-normal sm:text-[16px] text-[8px] leading-[20px] text-white uppercase">
+        <p className="font-normal sm:text-[16px] text-[12px] leading-[20px] text-white uppercase">
           View this channel
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
