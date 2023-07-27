@@ -32,7 +32,7 @@ const World = () => (
         className="relative mt-[68px] flex w-full h-[550px]"
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute bottom-20 sm:top-[30%] right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img src="people-01.jpg" alt="people" className="w-full h-full object-cover rounded-full" />
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
@@ -42,27 +42,21 @@ const World = () => (
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
 
-        <div className="absolute blur hover:blur-none top-1/4 left-[10%] sm:w-[220px] w-[110px] h-[100px] sm:h-[200px] p-[6px] rounded-[20px] bg-[#5d6680]">
-          <div className="justify-center items-center flex flex-col p-1 bg-[rgba(0,0,0,0.5)] rounded-[20px]">
-            <p className="font-bold text-white text-[12.5px] sm:text-[18px] p-1">
-              Frontend
-            </p>
-            <img
+        <div className="absolute top-[300px] sm:top-[250px] sm:left-[20%]  left-[10%] p-[6px] rounded-full bg-[#5d6680] overflow-hidden">
+          <div className="justify-center items-center flex flex-col p-1 bg-[rgba(0,0,0,0.5)] h-[100px] rounded-full">
+                       <img
               src="Frontend.webp"
               alt="people"
-              className="w-full h-full object-cover rounded-[20px] p-1"
+              className="w-full h-full object-cover rounded-full p-1"
             />
           </div>
         </div>
-        <div className="absolute blur hover:blur-none top-[10%] left-[60%] sm:w-[220px] w-[110px] h-[100px] sm:h-[200px] p-[6px] rounded-[20px] bg-[#5d6680]">
-          <div className="justify-center items-center flex flex-col p-1 bg-[rgba(0,0,0,0.5)] rounded-[20px]">
-            <p className="font-bold text-white text-[12.5px] sm:text-[18px] p-1">
-              Backend
-            </p>
+        <div className="absolute top-[10%] left-[60%] p-[6px] rounded-full bg-[#5d6680] overflow-hidden">
+          <div className="justify-center h-[100px] w- items-center flex flex-col p-1 bg-[rgba(0,0,0,0.5)] rounded-full overflow-hidden">
             <img
               src="Backend.webp"
               alt="people"
-              className="w-full h-full object-cover rounded-[20px] p-1"
+              className="w-full h-full object-cover rounded-full p-1"
             />
           </div>
         </div>
