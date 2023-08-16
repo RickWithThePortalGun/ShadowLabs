@@ -69,7 +69,7 @@ const Hero = () => (
         />
 
         <a
-          href="https://discord.gg/WTKKZypq"
+          href="https://discord.gg/ZZWQbnHR67"
           className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10 "
         >
           <motion.div className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] bg-white rounded-full flex flex-col items-center justify-center shadow-lg ">

@@ -23,7 +23,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       </h3>
     ) : (
       <div className="absolute bottom-0 justify-center items-center w-full flex flex-col p-4 bg-[rgba(0,0,0,0.5)] rounded-b-[24px] rounded-t-[24px] sm:rounded-t-[0px]">
-        <a href="https://discord.gg/WTKKZypq">
+        <a href="https://discord.gg/ZZWQbnHR67">
         <div
           className={`${styles.flexCenter} w-[60px] h-[60px] mb-[8px] rounded-full glassmorphism`}
         > 

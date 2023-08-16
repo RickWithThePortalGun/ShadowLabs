@@ -18,7 +18,7 @@ const Footer = () => (
     <h4 className="font-bold md:text-[64px] text-[44px] text-white">
       Join the community
     </h4>
-    <a href="https://discord.gg/WTKKZypq">
+    <a href="https://discord.gg/ZZWQbnHR67">
     <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
     <img src="/app.png" alt="" className="w-[40px] object-contain" />
     <span className="font-bold text-[20px] text-white">
