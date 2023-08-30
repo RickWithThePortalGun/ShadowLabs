@@ -25,7 +25,7 @@ const Navbar = () => {
         alt="logo"
         className=" rounded-md w-[24px] h-[24px] object-contain"
       />
-      <h2 className="text-[20px] leading-[30px] text-white">
+      <h2 className="text-[20px] gap-[50%] justify-center leading-[30px] text-white">
         shadowlabshq
       </h2>
       {/* <img

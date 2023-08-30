@@ -32,7 +32,7 @@ const World = () => (
         className="relative mt-[68px] flex w-full h-[550px]"
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
-        <div className="absolute bottom-20 sm:top-[30%] right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute bottom-20 sm:top-[30%] right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] sm:hidden max-sm:hidden">
           <img src="people-01.jpg" alt="people" className="w-full h-full object-cover rounded-full" />
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
